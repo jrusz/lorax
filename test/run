@@ -13,6 +13,8 @@ if [ -n "$TEST_SCENARIO" ]; then
     test/check-cli TestTar
   elif [ "$TEST_SCENARIO" == "lorax" ]; then
     test/check-lorax TestLorax
+  elif [ "$TEST_SCENARIO" == "ci" ]; then
+	test/check-cli TestPylint 
   else
     test/check-cloud TestCloud.test_$TEST_SCENARIO
   fi
