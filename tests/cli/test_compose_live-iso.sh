@@ -32,7 +32,7 @@ gpgcheck=0
 enabled=1
 skip_if_unavailable=0
 name=rhel7-${RELEASE_TYPE}-optional
-baseurl=http://download-node-02.eng.bos.redhat.com/rhel-7/$RELEASE_TYPE/latest-RHEL-7/compose/Server-optional/\$basearch/os/
+baseurl=http://download.eng.bos.redhat.com/rhel-7/rel-eng/RHEL-7/latest-RHEL-7.9/compose/Server-optional/x86_64/os/
 __EOF__
             composer_start
         fi
